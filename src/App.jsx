@@ -25,7 +25,7 @@ export const App = () => {
     <div className="section">
       <h1 className="title">
         Selected tab is{' '}
-        {tabs.find(tab => tab.id === activeTabId).title || tabs[0]}
+        {tabs.find(tab => tab.id === activeTabId).title || tabs[0].title}
       </h1>
 
       <Tabs
